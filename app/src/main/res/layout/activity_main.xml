@@ -66,4 +66,14 @@
         android:onClick="onConvertDemoClick"
         android:text="convert" />
 
+    <Button
+        android:id="@+id/adapter_demo_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:onClick="onAdapterDemoClick"
+        android:text="adapter" />
+
 </LinearLayout>

@@ -25,7 +25,8 @@
         <activity android:name=".simpledemo.SimpleDemoActivity" />
         <activity android:name=".getdemo.GetDemoActivity" />
         <activity android:name=".postdemo.PostDemoActivity" />
-        <activity android:name=".convertdemo.ConverterActivity"/>
+        <activity android:name=".convertdemo.ConverterActivity" />
+        <activity android:name=".adapterdemo.AdapterActivity"/>
     </application>
 
 </manifest>

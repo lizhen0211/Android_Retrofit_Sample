@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.lz.retrofit_sample.adapterdemo.AdapterActivity;
 import com.lz.retrofit_sample.asyncdemo.AsyncActivity;
 import com.lz.retrofit_sample.convertdemo.ConverterActivity;
 import com.lz.retrofit_sample.getdemo.GetDemoActivity;
@@ -47,6 +48,11 @@ public class MainActivity extends Activity {
 
     public void onConvertDemoClick(View view) {
         Intent intent = new Intent(MainActivity.this, ConverterActivity.class);
+        startActivity(intent);
+    }
+
+    public void onAdapterDemoClick(View view) {
+        Intent intent = new Intent(MainActivity.this, AdapterActivity.class);
         startActivity(intent);
     }
 
